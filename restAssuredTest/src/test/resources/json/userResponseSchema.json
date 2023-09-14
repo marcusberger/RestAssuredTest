@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  },
+  "required": ["id", "name", "job", "createdAt"]
+}
